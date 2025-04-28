@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>ვებგვერდის მაგალითი</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    
+    h1 {
+      color: darkblue;
+      background-color: lightblue;
+      font-size: 36px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    h2 {
+      color: darkgreen;
+      background-color: #d0f0c0;
+      font-size: 30px;
+      font-weight: 600;
+      text-align: left;
+    }
+
+    h3 {
+      color: darkred;
+      background-color: #ffd1d1;
+      font-size: 26px;
+      font-weight: 500;
+      text-align: right;
+    }
+
+    
+    .paragraphs {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .paragraphs p {
+      flex: 1 1 30%;
+      color: #333;
+      background-color: #f0f0f0;
+      font-size: 16px;
+      font-weight: normal;
+      text-align: justify;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    
+    .images {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 30px;
+    }
+
+    .images img {
+      width: 250px;
+      height: auto;
+      border-radius: 10px;
+      border: 3px solid #ccc;
+    }
+
+    
+    .buttons {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+
+    .buttons button {
+      color: white;
+      background-color: #007bff;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .buttons button:hover {
+      background-color: #0056b3;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>ეს არის პირველი Header</h1>
+  <h2>მეორე Header განსხვავებული სტილით</h2>
+  <h3>მესამე Header მარჯვენა მხარეს</h3>
+
+  <div class="paragraphs">
+    <p>ეს არის პირველი პარაგრაფი — ტექსტი თანაბრად არის განლაგებული და სტილიც განსხვავებულია.</p>
+    <p>მეორე პარაგრაფში ფონის ფერიც შეცვლილია და შრიფტის ზომაც.</p>
+    <p>მესამე პარაგრაფი კარგად ერგება დიზაინს.</p>
+    <p>მეოთხე პარაგრაფი წარმოადგენს მაგალითს ტექსტის ფორმატირებაზე.</p>
+    <p>მეხუთე პარაგრაფიც დიზაინის ნაწილია.</p>
+  </div>
+
+  <div class="images">
+    <img src= alt="სურათი 1">
+    <img src=  alt="სურათი 2">
+  </div>
+
+  <div class="buttons">
+    <button>ღილაკი 1</button>
+    <button>ღილაკი 2</button>
+    <button>ღილაკი 3</button>
+  </div>
+
+</body>
+</html>

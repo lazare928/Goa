@@ -1,0 +1,56 @@
+<html>
+<html lang="ka">
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+    <form action="/submit_form" method="POST">
+        <!-- Full Name -->
+        <label for="full_name">Full Name (required)</label>
+        <input type="text" id="full_name" name="full_name" required placeholder="Enter your full name">
+        <br>
+        <br>
+        <!-- Email -->
+        <label for="email">Email (required)</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+        <br>
+        <br>
+        <!-- Age -->
+        <label for="age">Age (required)</label>
+        <input type="number" id="age" name="age" required placeholder="Enter your age" min="18">
+        <br>
+        <br>
+        <!-- City -->
+        <label for="city">City (required)</label>
+        <input type="text" id="city" name="city" required placeholder="Enter your city">
+        <br>
+        <br>
+        <!-- Gender -->
+        <label for="gender">Gender (required)</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" required>
+
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other" required>
+        <label for="other">Other</label>
+        <br>
+        <br>
+        <!-- Hobbies -->
+        <label>Hobbies (required, at least one)</label>
+        <input type="checkbox" id="reading" name="hobbies" value="Reading" required>
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="sports" name="hobbies" value="Sports" required>
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="hobbies" value="Music" required>
+        <label for="music">Music</label>
+        <br>
+        <br>
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
